@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta name="author" content="Paola Lemes RM84541">
+        <meta name="keywords" content="Heanth Track">
+        <meta name="charset" content="utf-8">
+        <link rel="icon" href="Imagens/heartbeat-solid.svg">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+        <link rel="stylesheet" href="css/estilo.css" type="text/css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+        <script type="text/javascript" src="js/jquery-3.5.1.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <main class="container p-md-5">
+            <div class="card border-info container mt-5">
+                <div class="row card-header border-info text-info my-0 py-0">
+                    <p class="col p-0 m-0"><i class="fas fa-utensils"></i> Refeição</p>            
+                </div>                        
+                <div class="card-body text-center">
+                    <form class="">
+                        <div class="form-group input-group">
+                            <div class="input-group-prepend">
+                                <label class="input-group-text" for="dt">Data</label>
+                            </div>
+                            <input class="form-control" type="date" name="dt" id="dt">
+                        </div>
+    
+                        <div class="form-group input-group">
+                            <div class="input-group-prepend">
+                                <label class="input-group-text" for="dt">Hora</label>
+                            </div>
+                            <input class="form-control" type="time" name="hr" id="hr">
+                        </div>
+    
+                        <div class="form-group input-group">
+                            <div class="input-group-prepend">
+                                <label class="input-group-text" for="refeicao">Refeição</label>
+                            </div>
+                            <select class="custom-select" name="refeicao" id="refeicao">
+                                <option value="corrida">Café da Manhã</option>
+                                <option value="musculacao">Almoço</option>
+                                <option value="caminhada">Jantar</option>
+                                <option value="natacao">Lanche</option>
+                                <option value="ciclismo">Ceia</option>
+                            </select>
+                        </div>
+    
+                        <div class="form-group input-group">
+                            <div class="input-group-prepend">
+                                <label class="input-group-text" for="kcal">Calorias</label>
+                            </div>
+                            <input class="form-control" type="number" name="kcal" id="kcal" placeholder="kcal">
+                        </div>
+    
+                        <div class="form-group input-group">
+                            <div class="input-group-prepend">
+                                <label class="input-group-text" for="descr">Descrição</label>
+                            </div>
+                            <input class="form-control" type="text" name="descr" id="descr" placeholder="">
+                        </div>
+    
+                    </form>
+                    <a class="btn btn-info rounded-pill text-center" href="Refeicao.html">Adicionar</a>
+                    <a class="btn btn-info rounded-pill text-center" href="Refeicao.html">Cancelar</a>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
+
